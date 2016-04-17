@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #46A1DE;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.67em 0;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.tab-navigation {
+  margin: 0;
+  padding: 0;
+}
+.tab-navigation>li {
+  display: inline-block;
+  padding: 1em 0;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+}
+.tab-navigation>li>a {
+  text-decoration: none;
+  padding: 1em;
+  color: #fff;
+}
+
+.tab-navigation>li>a.active {
+  background: #fff;
+  color: #000;
+  border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  -webkit-border-radius: 4px 4px 0px 0px;
+  border: 0px solid #000000;
+}
+
+#tab-content-wrapper {
+  background: #fff;
+}
+
+.tab-content {
+  box-sizing: border-box;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  display: none;
+  position: absolute;
+  width: 80%;
+  background: #fff;
+  padding: 1em 3em 2em;
+  overflow: hidden;
+  border-radius: 0px 0px 4px 4px;
+  -moz-border-radius: 0px 0px 4px 4px;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  border: 0px solid #000000;<Paste>
+}
