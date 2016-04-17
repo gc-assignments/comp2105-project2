@@ -32,7 +32,7 @@ $(document).ready(function(){
     // if clicking on the same tab, do nothing
     if (currIdx === prevIdx) return;
     inTransition = true;
-    var direction = currIdx > prevIdx ? 0 : 1;
+    var direction = +(currIdx > prevIdx);
 
     tabNav
       .find('a.active')
